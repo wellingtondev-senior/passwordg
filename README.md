@@ -1,4 +1,4 @@
-# Passwrodg V1.1.3
+# Passwrodg V1.1.5
 
 [![npm version](https://badge.fury.io/js/passwordg.svg)](https://badge.fury.io/js/passwordg)
 [![GitHub issues](https://img.shields.io/github/issues/seu-usuario/passwordg.svg)](https://github.com/wellingtondev-senior/passwordg/issues)
@@ -18,4 +18,17 @@ O **Gerador de Senhas Aleatórias** é uma biblioteca simples e flexível para N
 ## Instalação
 
 ```bash
-npm install password-generator
+npm install passwordg
+```
+
+```javascript
+import { PasswordGenerator } from 'passwordg';
+
+
+
+const passwordGenerator = new PasswordGenerator();
+const generatedPassword = passwordGenerator.generatePassword(passwordLength,);
+
+console.log(`Generated Password: ${generatedPassword}`);
+
+```
