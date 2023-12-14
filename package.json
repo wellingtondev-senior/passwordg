@@ -1,7 +1,12 @@
 {
   "name": "passwordg",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Password Generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wellingtondev-senior/passwordg"
+  },
+  "homepage": "https://github.com/wellingtondev-senior/passwordg",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
