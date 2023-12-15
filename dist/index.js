@@ -23,10 +23,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.generatePassword = void 0;
 const crypto = __importStar(require("crypto"));
 function generatePassword(length) {
     const randomBytes = crypto.randomBytes(Math.ceil(length / 2));
     return randomBytes.toString('hex').slice(0, length);
 }
-exports.default = generatePassword;
+exports.generatePassword = generatePassword;
 //# sourceMappingURL=index.js.map

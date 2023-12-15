@@ -1,2 +1,2 @@
-export default function generatePassword(length: number): string;
+export declare function generatePassword(length: number): string;
 //# sourceMappingURL=index.d.ts.map
