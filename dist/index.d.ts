@@ -1,6 +1,2 @@
-export declare class PasswordGenerator {
-    private length;
-    constructor(length: number);
-    private generateRandomBytes;
-    generatePassword(): string;
-}
+export default function generatePassword(length: number): string;
+//# sourceMappingURL=index.d.ts.map

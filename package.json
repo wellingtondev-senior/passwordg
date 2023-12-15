@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/wellingtondev-senior/passwordg",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist",
   "scripts": {
     "build": "tsc --declaration",
     "dev": "nodemon --watch \"src//\" --exec \"ts-node src/index.ts\" -e ts"

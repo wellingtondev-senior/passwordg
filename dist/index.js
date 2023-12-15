@@ -29,3 +29,4 @@ function generatePassword(length) {
     return randomBytes.toString('hex').slice(0, length);
 }
 exports.default = generatePassword;
+//# sourceMappingURL=index.js.map
