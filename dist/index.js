@@ -23,23 +23,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PasswordGenerator = void 0;
 const crypto = __importStar(require("crypto"));
-class PasswordGenerator {
-    constructor(length) {
-        this.length = length;
-    }
-    generateRandomBytes() {
-        return crypto.randomBytes(Math.ceil(this.length / 2));
-    }
-    generatePassword() {
-        const randomBytes = this.generateRandomBytes();
-        return randomBytes.toString('hex').slice(0, this.length);
-    }
+function generatePassword(length) {
+    const randomBytes = crypto.randomBytes(Math.ceil(length / 2));
+    return randomBytes.toString('hex').slice(0, length);
 }
-exports.PasswordGenerator = PasswordGenerator;
-// Exemplo de uso
-const passwordLength = 12;
-const passwordGenerator = new PasswordGenerator(passwordLength);
-const generatedPassword = passwordGenerator.generatePassword();
-console.log(`Generated Password: ${generatedPassword}`);
+exports.default = generatePassword;
