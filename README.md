@@ -22,13 +22,12 @@ npm install passwordg
 ```
 
 ```javascript
-import { PasswordGenerator } from 'passwordg';
+import { generatePassword} from 'passwordg';
 
 
 
-const passwordGenerator = new PasswordGenerator();
-const generatedPassword = passwordGenerator.generatePassword(6);
+const passwordGenerator = generatePassword(12);
 
-console.log(`Generated Password: ${generatedPassword}`);
+console.log(`Generated Password: ${passwordGenerator}`);
 
 ```
