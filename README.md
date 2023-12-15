@@ -1,4 +1,4 @@
-# Passwrodg 
+# Passwrodg - Gerador de senha  
 
 [![npm version](https://badge.fury.io/js/passwordg.svg)](https://badge.fury.io/js/passwordg)
 [![GitHub issues](https://img.shields.io/github/issues/seu-usuario/passwordg.svg)](https://github.com/wellingtondev-senior/passwordg/issues)
