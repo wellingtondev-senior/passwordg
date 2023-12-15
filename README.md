@@ -1,8 +1,8 @@
 # Passwrodg - Gerador de senha  
 
 [![npm version](https://badge.fury.io/js/passwordg.svg)](https://badge.fury.io/js/passwordg)
-[![GitHub issues](https://img.shields.io/github/issues/seu-usuario/passwordg.svg)](https://github.com/wellingtondev-senior/passwordg/issues)
-[![GitHub license](https://img.shields.io/github/license/seu-usuario/passwordg.svg)](https://github.com/wellingtondev-senior/passwordg/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/wellingtondev-senior/passwordg.svg)](https://github.com/wellingtondev-senior/passwordg/issues)
+[![GitHub license](https://img.shields.io/github/license/wellingtondev-senior/passwordg.svg)](https://github.com/wellingtondev-senior/passwordg/blob/master/LICENSE)
 
 ## Descrição
 
